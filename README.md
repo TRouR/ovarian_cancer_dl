@@ -15,7 +15,7 @@ Each sample is represented as a **graph** where:
 - **Scale-free topology** property is integrated into the adjacency matrix.
 - **𝛢** undergoes a bisection process based on an optimized threshold, resulting in the creation of matrix 𝛦 that encodes the neighbours of each node.
 
-Diverse **graph convolutional layers** with **attention** mechanisms are then used to encode local **gene-level** features into higher-order 
+**Graph convolutional layers** with **attention** mechanisms are then used to encode local **gene-level** features into higher-order 
 co-functional **pathway-level** features. These are then integrated into **fully connected layers** for final classification.
 
 Compared to alternative models, our approach achieves **superior performance** in predicting HGSOC stages.
@@ -28,7 +28,7 @@ This approach enables:
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```plaintext
 ovarian_cancer_dl/
@@ -62,37 +62,36 @@ ovarian_cancer_dl/
 - **Deep interpretability** through full-gradient feature attribution.
 - Supports traditional **ML baselines** like **SVM** and **XGBoost** for performance comparison.
 
-# 📦 Installation
+# Requirements
 
-Install required packages via `pip`:
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `astropy==4.3.1`
+- `PyWGCNA==1.0.1`
+- `rpy2==3.5.6`
+- `scipy==1.7.3`
+- `statsmodels==0.13.2`
+- `optuna==4.0.0`
+- `scikit_learn==1.5.1`
+- `seaborn==0.13.2`
+- `torch==1.13.1`
+- `xgboost==2.1.1`
 
-```bash
-pip install -r requirements.txt
-```
-or via `conda`:
-```bash
-conda install --file requirements.txt
-```
+# References
 
-# 🚀 How to Run
+1. S. Horvath, *Weighted Network Analysis: Applications in Genomics and System Biology*. New York, NY: Springer, 2011. [doi:10.1007/978-1-4419-8819-5](https://doi.org/10.1007/978-1-4419-8819-5)
 
-1.
-2. Run optimizations:
+2. [WGCNA package - RDocumentation](https://www.rdocumentation.org/packages/WGCNA/versions/1.72-5). Accessed: Jan. 11, 2024.
 
-For GAT Model:
+3. [mortazavilab/PyWGCNA](https://github.com/mortazavilab/PyWGCNA), mortazavilab, Jan. 09, 2024. Accessed: Jan. 11, 2024.
 
-```bash
-python machine_learning/gat_optimization.py
-```
+4. W. L. Hamilton, *Graph Representation Learning*.
 
-For FCNN:
+5. P. Veličković, G. Cucurull, A. Casanova, A. Romero, P. Liò, and Y. Bengio, "Graph Attention Networks," *arXiv*, Feb. 04, 2018. [doi:10.48550/arXiv.1710.10903](https://doi.org/10.48550/arXiv.1710.10903)
 
-```bash
-python machine_learning/nn_optimization.py
-```
+6. X. Xing et al., "Multi-level attention graph neural network based on co-expression gene modules for disease diagnosis and prognosis," *Bioinformatics*, vol. 38, no. 8, pp. 2178–2186, Apr. 2022. [doi:10.1093/bioinformatics/btac088](https://doi.org/10.1093/bioinformatics/btac088)
 
-Evaluate models and visualize results in the generated directories.
-
-
+7. [Optuna - A hyperparameter optimization framework](https://optuna.org/). Accessed: Jan. 16, 2024.
 
 
