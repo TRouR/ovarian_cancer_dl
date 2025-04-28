@@ -109,9 +109,20 @@ The input for all models consists of the same 513 gene features.
 | C19orf12          | CRISPLD2          | KRT6              |
 | FABP4             | MROH5             | LOC81691          |
 
-- **VSIG4**: Implicated in immune evasion and tumor progression. Higher expression correlates with advanced stage ovarian cancers.
-- **PIK3CA**: Activates PI3K/AKT/mTOR signaling pathway; known for oncogenic mutations in HGSOC.
-- **PBX1**: Regulated by NOTCH signaling; promotes cell proliferation and carcinogenesis in ovarian cancer.
+---
+
+### Biological Interpretation of Top Genes:
+
+- 🧬 **VSIG4**:  
+  Implicated in immune evasion and tumor progression. Higher expression correlates with advanced-stage ovarian cancers.
+
+- 🧬 **PIK3CA**:  
+  Activates the PI3K/AKT/mTOR signaling pathway; frequently mutated in HGSOC and associated with tumorigenesis.
+
+- 🧬 **PBX1**:  
+  Regulated by NOTCH signaling; promotes cell proliferation and carcinogenesis in ovarian cancer.
+
+---
 
 Thus, the GAT model identifies biologically meaningful genes that can serve as potential biomarkers or therapeutic targets.
 
