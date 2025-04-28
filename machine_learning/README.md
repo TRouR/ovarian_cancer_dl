@@ -97,6 +97,10 @@ The input for all models consists of the same 513 gene features.
 
 **Saliency scores** were computed from the fully connected part of the GCNN-GAT model to identify the most important genes for predicting the "high" stage of HGSOC.
 
+- **F1** corresponds to the original input gene expression profiles.
+- **F2** represents the encoded features after the first GAT layer.
+- **F3** represents the encoded features after the second GAT layer.
+
 | Top genes from F1 | Top genes from F2 | Top genes from F3 |
 |:------------------|:------------------|:------------------|
 | VSIG4             | ALG10B            | KCNMB3            |
