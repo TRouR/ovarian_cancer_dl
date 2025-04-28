@@ -103,8 +103,8 @@ The input for all models consists of the same 513 gene features.
 
 | Top genes from F1 | Top genes from F2 | Top genes from F3 |
 |:------------------|:------------------|:------------------|
-| VSIG4             | ALG10B            | KCNMB3            |
-| **PIK3CA**        | **PBX1**           | APBB2             |
+| **VSIG4**         | ALG10B            | KCNMB3            |
+| **PIK3CA**        | **PBX1**          | APBB2             |
 | COL11A1           | EPB41L3           | GAPDH             |
 | C19orf12          | CRISPLD2          | KRT6              |
 | FABP4             | MROH5             | LOC81691          |
