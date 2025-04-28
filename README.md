@@ -78,7 +78,12 @@ ovarian_cancer_dl/
 - `torch==1.13.1`
 - `xgboost==2.1.1`
 
+> **Note**:  
+> - R installation is required for **PyWGCNA** and **rpy2** functionalities.  
+> - R libraries like `WGCNA` must also be installed separately.
+
 # References
+
 
 1. S. Horvath, *Weighted Network Analysis: Applications in Genomics and System Biology*. New York, NY: Springer, 2011. [doi:10.1007/978-1-4419-8819-5](https://doi.org/10.1007/978-1-4419-8819-5)
 
