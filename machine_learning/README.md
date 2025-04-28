@@ -20,8 +20,8 @@ This section focuses on the training, optimization, and evaluation of machine le
 ---
 
 ## Optimization Strategy
-- **Optuna** was used for hyperparameter optimization, leveraging the **Tree-Structured Parzen Estimator (TPE)**.
-- The validation set was used during optimization, while the test set was reserved strictly for final evaluation.
+- **Optuna** was used for hyperparameter optimization, using the **Tree-Structured Parzen Estimator (TPE)**.
+- The validation set was used during optimization, while the test set was used only for final evaluation.
 
 ---
 
