@@ -35,7 +35,8 @@ The goal is to construct a weighted gene co-expression network and compute the a
 ### Figure 1: Hierarchical Clustering of Samples
 ![Figure 1](https://github.com/user-attachments/assets/9623bda8-5934-4be3-b00f-97b6387e45d7)
 Hierarchical clustering based on Euclidean distance and Average linkage. 
-A threshold of 45 was set to exclude 135 obvious sample outliers (colored purple).
+A threshold of height 45 was set to exclude 135 obvious sample outliers.
+Retained samples are colored purple.
 
 ---
 
